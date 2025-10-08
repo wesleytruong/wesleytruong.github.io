@@ -1,0 +1,127 @@
+/* General Body Styles */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Sections */
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  flex-direction: row;
+}
+
+@media (max-width: 700px) {
+  .about-me-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-text h2 {
+  margin-top: 0;
+}
+
+.about-text p {
+  line-height: 1.6;
+  color: #444;
+}
+
+.about-photo {
+  flex: 1;
+  text-align: center;
+}
+
+.about-photo img {
+  width: 80%;
+  max-width: 250px;
+  border-radius: 15%;
+  object-fit: cover;
+}
+
+/* Expert Topics */
+#expert-topics ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  color: #777;
+}
